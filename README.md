@@ -3,7 +3,7 @@ NatureWeeksInYear
 
 This method will return array contains the nature weeks in the years you assigned.  
 
-Autocompletion the days of first and last week which is other years.
+Autocompletion the days of first and last week which is in other years.
 
 ```html
 	<script>

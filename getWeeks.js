@@ -1,7 +1,7 @@
 (function() {
 	window.getWeeks = function($year) {
-		var firstDate = new Date($year + "-01-01 00:00:00"),
-			lastDate = new Date((parseInt($year) + 1) + "-01-01 00:00:00"),
+		var firstDate = new Date($year + "-01-01"),
+			lastDate = new Date((parseInt($year) + 1) + "-01-01"),
 			DAY_SECOND = 86400000,
 			WEEK_SECOND = 604800000,
 			daysInWeek = 7,
